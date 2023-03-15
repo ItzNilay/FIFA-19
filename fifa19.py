@@ -8,8 +8,8 @@ print("Number of rows: ", len(fifa_data))
 print("Number of columns: ", len(fifa_data.columns))
 print("\n")
 
-# Display the first 5 rows of the dataset
-print("First 5 rows of the dataset:")
+# Display the first 10 rows of the dataset
+print("First 10 rows of the dataset:")
 print(fifa_data.head())
 print("\n")
 
@@ -40,4 +40,34 @@ print("\n")
 avg_rating_by_club = fifa_data.groupby('Club')['Overall'].mean()
 print("Average rating of players by club:")
 print(avg_rating_by_club)
+print("\n")
+
+# Display the average cost of players by club
+avg_cost_by_club = fifa_data.groupby('Cost')['Overall'].mean()
+print("Average cost of players by club:")
+print(avg_cost_by_club)
+print("\n")
+
+# Display the stadiums by club
+stadiums_by_clubs = fifa_data.groupby('Stadiums')['Overall'].mean()
+print("List of Stadiums by clubs:")
+print(stadiums_by_clubs)
+print("\n")
+
+# Display the Coaches of each club
+Coaches_clubs = fifa_data.groupby('Coaches')['Overall'].mean()
+print("Coaches of each club:")
+print(Coaches_clubs)
+print("\n")
+
+# Display the Captains of each club
+Captains_clubs = fifa_data.groupby('Captains')['Overall'].mean()
+print("Captains of each club:")
+print(Captains_clubs)
+print("\n")
+
+# Titles/Victories of each club
+Titles_clubs = fifa_data.groupby('Titles')['Overall'].mean()
+print("Titles of each club:")
+print(Titles_clubs)
 print("\n")
