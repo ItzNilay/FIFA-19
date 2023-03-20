@@ -10,7 +10,7 @@ print("\n")
 
 # Display the first 10 rows of the dataset
 print("First 10 rows of the dataset:")
-print(fifa_data.head())
+print(fifa_data.head(10))
 print("\n")
 
 # Display some basic statistics for the 'Overall' column
