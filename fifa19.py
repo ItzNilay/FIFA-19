@@ -50,7 +50,7 @@ print("\n")
 
 # Display the stadiums by club
 stadiums_by_clubs = fifa_data.groupby('Stadiums')['Overall'].mean()
-print("List of Stadiums by clubs:")
+print("List of Clubs' stadiums:")
 print(stadiums_by_clubs)
 print("\n")
 
