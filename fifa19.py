@@ -1,6 +1,5 @@
 import pandas as pd
 
-# Load the dataset
 fifa_data = pd.read_csv('fifa19.csv')
 
 # Get some basic information about the dataset
