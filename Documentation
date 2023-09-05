@@ -14,7 +14,7 @@ Overall, the FIFA 19 dataset is a comprehensive collection of data on soccer pla
 
 
 
-This code uses the pandas library to analyze and manipulate a FIFA19 dataset. The dataset is loaded into a pandas DataFrame using the pd.read_csv() method.
+The code uses the pandas library to analyze and manipulate a FIFA19 dataset. The dataset is loaded into a pandas DataFrame using the pd.read_csv() method.
 
 The first few lines of the code print out some basic information about the dataset, including the number of rows and columns, and displays the first 10 rows of the dataset.
 
