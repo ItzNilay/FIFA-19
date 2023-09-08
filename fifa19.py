@@ -65,7 +65,7 @@ print("Captains of each club :")
 print(Captains_clubs)
 print("\n")
 
-# Titles/Victories of each club
+# Titles or Victories of each club
 Titles_clubs = fifa_data.groupby('Titles')['Overall'].mean()
 print("Titles of each club :")
 print(Titles_clubs)
