@@ -1,4 +1,4 @@
-The FIFA 19 dataset is a comprehensive collection of data on soccer players from around the world. It contains information on various attributes such as age, nationality, club, and performance metrics. The data can be loaded into Python using the read_csv() function from the pandas module.
+The FIFA-19 dataset is a comprehensive collection of data on soccer players from around the world. It contains information on various attributes such as age, nationality, club, and performance metrics. The data can be loaded into Python using the read_csv() function from the pandas module.
 
 The dataset contains a total of 18,207 observations and 89 columns. Each row represents a unique player, and each column represents a different attribute of the player. The attributes include both categorical and numerical variables.
 
