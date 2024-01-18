@@ -1,4 +1,4 @@
-import pandas as pd
+ import pandas as pd
 
 fifa_data = pd.read_csv('fifa19.csv')
 
